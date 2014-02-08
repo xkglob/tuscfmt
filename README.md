@@ -12,8 +12,11 @@ When we run tusc command with "-T" argument, but forget to specifiy time format,
 --sniped from a tusc logfile
 
 ( Attached to process 2766 ("ora_lgwr_R11203") [64-bit] )
+
 1388730764.600953 [2766] pw_wait(0x9fffffffffffb290) ..... [sleeping]
+
 1388730765.780235 [2766] getrusage(RUSAGE_SELF, 0x9fffffffffffbc40) = 0
+
 1388730765.780378 [2766] getrusage(RUSAGE_SELF, 0x9fffffffffffbc10) = 0
 
 --end 
