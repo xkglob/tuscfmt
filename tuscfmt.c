@@ -28,10 +28,6 @@ $ gcc -m32 -o ./tuscfmt ./tuscfmt.c
 eg:
 $ ./tuscfmt /root/C/tusc/tusc.log ./tusc.fmt.log
 
-5(optional): In fact, below awk code can do the same thing
-
-awk -F. --re-interval '$1~/^[0-9]{10}$/ && $2~/^[0-9]{6}\s+*/ {$1=strftime("%F %T",$1)}1' OFS=. tusc.log
-
 */
 
 
