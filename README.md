@@ -45,10 +45,10 @@ eg
 $ ./tuscfmt /root/C/tusc/tusc.log ./tusc.fmt.log
 
 
-Substitute AWR command
+Substitute awk command
 =======
 
-In fact, we could use below AWR command to do the same thing as this utility
+In fact, we could use below awk command to do the same thing as this utility
 
 awk -F. --re-interval '$1~/^[0-9]{10}$/ && $2~/^[0-9]{6}\s+*/ {$1=strftime("%F %T",$1)}1' OFS=. tusc.log
 
